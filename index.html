@@ -3,17 +3,78 @@
 :root{color-scheme:dark;--bg:#101217;--panel:#191e27;--panel2:#222a36;--line:#303b4a;--text:#f4f6fa;--muted:#9ca8b8;--accent:#b8f36b;--accent2:#80d9b0;--danger:#ff7777;--shadow:0 14px 36px #0005}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 85% -10%,#26384a 0,transparent 38%),var(--bg);color:var(--text);font:15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding:env(safe-area-inset-top) 14px calc(28px + env(safe-area-inset-bottom));min-height:100vh}button,input,textarea,select{font:inherit}button{cursor:pointer}header{position:sticky;top:0;z-index:5;padding:13px 0 12px;background:#101217eF;backdrop-filter:blur(18px)}.brand{display:flex;align-items:center;gap:11px}.logo{width:44px;height:44px;border-radius:15px;display:grid;place-items:center;background:linear-gradient(145deg,#c8ff80,#6cb98b);color:#111;font-size:23px;box-shadow:0 7px 22px #9fe86b33}.brand h1{font-size:20px;margin:0;letter-spacing:.2px}.sub{font-size:10px;letter-spacing:1.8px;color:var(--muted);margin-top:4px}.hero{margin:10px 0 14px;padding:18px;border:1px solid #354355;border-radius:22px;background:linear-gradient(135deg,#202d3d,#171d28 65%,#263c36);box-shadow:var(--shadow)}.eyebrow{font-size:10px;letter-spacing:1.8px;color:#b8f36b;font-weight:800}.hero h2{font-size:24px;line-height:1.08;margin:7px 0}.hero p{color:#b6c1ce;font-size:12px;margin:0}.search{width:100%;border:1px solid var(--line);background:var(--panel);border-radius:15px;padding:15px;color:var(--text);outline:none;margin:4px 0 12px}.search:focus,.field:focus,textarea:focus,select:focus{border-color:var(--accent)}.actions{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin:10px 0 13px}.action{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:11px 5px;color:var(--text);font-size:11px;display:grid;justify-items:center;gap:6px}.action b{font-size:18px}.action:active,.btn:active,.chip:active{transform:scale(.98)}.chips{display:flex;gap:7px;overflow:auto;padding:2px 0 13px;scrollbar-width:none}.chip{white-space:nowrap;border:1px solid var(--line);border-radius:30px;background:var(--panel);color:var(--muted);padding:9px 13px;font-size:12px}.chip.active{background:var(--accent);border-color:var(--accent);color:#15200e;font-weight:800}.toolbar{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:11px;padding:2px 2px 9px}.section{margin:13px 0 18px}.section h3{font-size:11px;letter-spacing:1.5px;color:var(--accent);margin:0 3px 8px;text-transform:uppercase}.dish{border:1px solid var(--line);border-radius:17px;background:linear-gradient(150deg,#1c2430,#171c25);margin:8px 0;overflow:hidden;box-shadow:0 5px 18px #0002}.dishhead{display:flex;align-items:center;gap:10px;padding:14px;min-height:65px}.dishname{font-size:15px;font-weight:750}.meta{font-size:10px;color:var(--muted);margin-top:5px}.grow{flex:1;min-width:0}.star{border:0;background:none;color:#8995a4;font-size:22px;padding:4px}.star.on{color:#ffd36a}.missing{font-size:9px;color:#ffc66e;border:1px solid #715b35;border-radius:20px;padding:4px 7px}.arrow{color:var(--muted);font-size:18px}.detail{border-top:1px solid var(--line);padding:13px}.photo{width:100%;max-height:220px;object-fit:cover;border-radius:13px;margin-bottom:10px}.detailtitle{font-size:10px;color:var(--accent);font-weight:800;letter-spacing:1.4px;text-transform:uppercase;margin:13px 0 7px}.ingredient{display:flex;justify-content:space-between;gap:10px;padding:9px 2px;border-bottom:1px solid #ffffff10;font-size:13px}.component{width:100%;display:flex;align-items:center;justify-content:space-between;text-align:left;gap:8px;padding:12px;border:1px solid #526748;border-radius:13px;background:#263529;color:var(--text);margin:7px 0}.component small{display:block;color:#b7c5b0;font-size:10px;margin-top:3px}.component strong{color:var(--accent);white-space:nowrap}.detailtext{font-size:13px;line-height:1.55;white-space:pre-wrap}.pill{display:inline-flex;border:1px solid var(--line);padding:6px 9px;border-radius:30px;color:var(--muted);font-size:11px;margin:3px 4px 3px 0}.rowbtns{display:flex;flex-wrap:wrap;gap:7px;margin-top:13px}.btn,.smallbtn{border:1px solid var(--line);background:var(--panel2);color:var(--text);border-radius:11px;padding:10px 12px;font-size:12px}.btn.primary{background:var(--accent);color:#15200e;border-color:var(--accent);font-weight:800}.btn.danger{color:#ffaaaa;border-color:#774444}.empty{text-align:center;color:var(--muted);padding:45px 10px}.overlay{position:fixed;inset:0;background:#000b;z-index:20;display:none;align-items:flex-end;justify-content:center;padding:10px 8px calc(10px + env(safe-area-inset-bottom))}.overlay.show{display:flex}.modal{width:min(100%,650px);max-height:94dvh;overflow:auto;background:#1a202a;border:1px solid #3a4657;border-radius:23px;padding:17px;box-shadow:var(--shadow)}.modalhead{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:14px}.modalhead h2{font-size:18px;margin:0}.close{border:0;border-radius:50%;width:34px;height:34px;background:#2a3442;color:white;font-size:20px}.formrow{margin:12px 0}.formrow label{display:block;color:var(--muted);font-size:11px;font-weight:700;margin-bottom:6px}.field,textarea,select{width:100%;border:1px solid var(--line);background:#111720;color:var(--text);border-radius:11px;padding:12px;outline:none;font-size:14px}.field,select{min-height:43px}textarea{min-height:100px;resize:vertical;line-height:1.4}.hint{font-size:10px;color:var(--muted);line-height:1.4;margin-top:5px}.modalactions{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px}.preview{width:100%;max-height:170px;object-fit:cover;border-radius:12px;margin-top:8px;display:none}.component-form{display:grid;grid-template-columns:1fr 82px 70px;gap:6px;align-items:end}.component-form .formrow{margin:5px 0}.listrow{display:flex;gap:8px;align-items:center;padding:9px 0;border-bottom:1px solid var(--line)}.listrow span{flex:1}.statgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.stat{padding:13px;border:1px solid var(--line);border-radius:13px;background:#111720}.stat strong{font-size:20px;display:block}.stat small{font-size:10px;color:var(--muted)}.cookmode{font-size:18px;line-height:1.6}.cookmode .ingredient{font-size:17px;padding:13px 2px}.crumb{font-size:11px;color:var(--muted);margin:0 0 10px}.bottom{text-align:center;color:#718093;font-size:10px;padding:20px 0 5px}.toast{position:fixed;bottom:25px;left:50%;transform:translateX(-50%);background:#d6ff9b;color:#17200f;padding:10px 15px;border-radius:20px;font-size:12px;font-weight:700;z-index:60;display:none}.hide{display:none!important}@media(min-width:650px){body{max-width:760px;margin:auto}.actions{grid-template-columns:repeat(6,1fr)}}@media print{body{background:white!important;color:#111!important;padding:0}.no-print,header,.actions,.chips,.toolbar,.rowbtns{display:none!important}.dish{background:white!important;color:#111!important;box-shadow:none;border:1px solid #ccc;break-inside:avoid}.detail{display:block!important}.detailtitle{color:#333}.ingredient{border-color:#ddd}.detailtext{color:#111}}
 
 :root{--accent:#c99af4}body{background:radial-gradient(ellipse at 85% -10%,#3a2448 0,transparent 42%),var(--bg)}.logo{background:linear-gradient(145deg,#e7c9ff,#a76bd5);color:#24132e;box-shadow:0 7px 22px #b77ce755}.hero{background:linear-gradient(135deg,#30213b,#1c1724 68%,#3c2947);border-color:#60466e}.eyebrow,.section h3,.detailtitle{color:var(--accent)}.chip.active,.btn.primary{background:var(--accent);border-color:var(--accent);color:#21152a}.cook-progress{height:5px;border-radius:10px;background:var(--panel2);overflow:hidden;margin:8px 0 16px}.cook-progress>span{display:block;height:100%;background:var(--accent);border-radius:10px;transition:width .2s}.cook-step{font-size:18px;line-height:1.55;padding:20px 16px;border:1px solid var(--line);border-radius:18px;background:var(--panel2);min-height:150px;display:flex;align-items:center}.cook-nav{display:flex;gap:9px;margin:14px 0}.cook-nav .btn{flex:1}.cook-check{display:flex;gap:10px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}.cook-check input{accent-color:var(--accent);width:18px;height:18px}
+
+
+/* KITCHEN TTK 3.2 — Kuromi atelier */
+:root{color-scheme:dark;--bg:#151019;--panel:#211827;--panel2:#2b2033;--line:#594260;--text:#fbf4ff;--muted:#bcaac3;--accent:#d6a0f2;--accent2:#f3b6d4;--shadow:0 15px 38px #08050d88}
+body{background:radial-gradient(ellipse at 88% 0%,#4b2a58 0,transparent 34%),radial-gradient(ellipse at 4% 48%,#2b1b35 0,transparent 30%),var(--bg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+header{background:#151019e8;border-bottom:1px solid #ffffff0b}
+.logo{background:linear-gradient(145deg,#f4d8ff,#b77bd6);color:#2a1633;box-shadow:0 0 24px #c58ce755;border:1px solid #f6ddff}
+.brand h1{font-family:Georgia,serif;letter-spacing:.7px}
+.sub{letter-spacing:2.3px}
+.mascot-hero{position:relative;display:flex;align-items:center;min-height:190px;margin:13px 0 16px;padding:18px 16px;border:1px solid #9c6cb2;border-radius:27px;background:linear-gradient(120deg,#382442 0%,#24182d 57%,#3c2545 100%);box-shadow:inset 0 0 35px #d8a3f21a,0 12px 30px #08050d66;overflow:hidden}
+.mascot-hero:before{content:"✦  ♡  ✦";position:absolute;right:12px;top:10px;color:#d9a9f0;font-size:19px;letter-spacing:8px;opacity:.7}
+.mascot-copy{position:relative;z-index:2;width:65%}
+.mascot-copy .eyebrow{color:#e5b6f7;font-size:10px;letter-spacing:1.6px}
+.speech{margin:12px 0 9px;padding:13px 14px;background:#f0d7f6;color:#392343;border-radius:18px 18px 18px 5px;font-size:17px;font-weight:750;line-height:1.25;box-shadow:0 6px 18px #08050d33}
+.mascot-copy p{font-size:11px;color:#d5c3dd;margin:0;line-height:1.4}
+.hero-kuromi{position:absolute;width:48%;max-width:205px;right:-5px;bottom:-20px;filter:drop-shadow(0 8px 13px #08050d99);border-radius:50%;mix-blend-mode:screen}
+.search{background:#211827;border-color:#694d73;border-radius:18px;box-shadow:inset 0 2px 9px #08050d55;padding:16px}
+.actions{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:14px 0 17px}
+.action{position:relative;min-height:91px;border:1px solid #62486d;border-radius:22px 22px 17px 22px;background:linear-gradient(145deg,#302239,#201725);padding:13px 7px;color:#f9efff;font-size:12px;font-weight:650;box-shadow:inset 0 1px #ffffff12,0 8px 17px #09050e55;transition:transform .18s,border-color .18s}
+.action:before{content:"";position:absolute;inset:5px;border:1px solid #ffffff0b;border-radius:17px;pointer-events:none}
+.action b{font-size:25px;color:#e3b0f7;text-shadow:0 0 13px #d49af477}
+.action:active{transform:translateY(2px) scale(.985)}
+.chip{background:#261b2e;border-color:#63496e;padding:10px 15px}
+.chip.active{background:linear-gradient(135deg,#edc9fa,#c88ee7);border-color:#e7c0fa;color:#291831;box-shadow:0 4px 15px #c78be755}
+.toolbar{font-size:12px}
+.smallbtn{border-radius:14px;background:#2c2034;border-color:#62476d}
+.section h3{color:#e2b1f4;font-size:12px;letter-spacing:2px}
+.dish{background:linear-gradient(145deg,#30223a,#211827);border-color:#674b73;border-radius:22px;box-shadow:0 9px 24px #08050d66}
+.dishhead{padding:16px;min-height:76px}
+.dishname{font-size:16px}
+.star{color:#d8a8ee}
+.detail{border-color:#ffffff14}
+.btn,.smallbtn{border-radius:14px}
+.btn.primary{background:linear-gradient(135deg,#edc8fb,#c88de8);color:#291831;border:0;box-shadow:0 5px 16px #bd80dc44}
+.modal{background:linear-gradient(155deg,#2b2033,#1b1420);border-color:#694e75}
+.field,textarea,select{background:#18121d;border-color:#5b4264}
+.mascot-footer{display:flex;align-items:center;gap:10px;margin:23px 4px 0;padding:11px 13px;border:1px dashed #78588a;border-radius:17px;background:#251a2d;color:#e7c6f5;font-size:11px;font-weight:650}
+.mascot-footer img{width:48px;height:48px;object-fit:cover;border-radius:50%;background:#34223d}
+.mascot-footer .spark{margin-left:auto;color:#e4b3f8;white-space:nowrap}
+.bottom{color:#b49cbd;padding:14px 0 8px}
+@media(min-width:600px){.actions{grid-template-columns:repeat(6,minmax(0,1fr))}.mascot-hero{min-height:220px}.hero-kuromi{width:38%;max-width:230px}}
+
+/* Theme selector: Kuromi is default; Classic keeps the workspace clean */
+.theme-classic .mascot-hero,.theme-classic .mascot-footer{display:none!important}
+.theme-classic .hero-kuromi{display:none!important}
+.theme-classic .hero{display:block!important;background:linear-gradient(135deg,#252a35,#1c2029)!important;border:1px solid #48515f!important;border-radius:18px!important;box-shadow:0 10px 25px #0004!important}
+.theme-classic .hero h2{color:#f2f4f8}
+.theme-classic .eyebrow,.theme-classic .section h3,.theme-classic .detailtitle{color:#b6c0ce!important}
+.theme-classic .logo{background:linear-gradient(145deg,#dfe4ec,#9ba7b8)!important;color:#222833!important;box-shadow:none!important}
+.theme-classic .action{background:linear-gradient(145deg,#292e38,#20242d)!important;border-color:#424a58!important;border-radius:16px!important;box-shadow:0 5px 13px #0003!important}
+.theme-classic .action b{color:#c4ccd8!important;text-shadow:none!important}
+.theme-classic .dish{background:linear-gradient(145deg,#292f3a,#20242d)!important;border-color:#444d5c!important;box-shadow:0 5px 15px #0003!important}
+.theme-classic .chip.active,.theme-classic .btn.primary{background:#aab5c5!important;border-color:#aab5c5!important;color:#1d222b!important;box-shadow:none!important}
+.theme-classic .speech{display:none!important}
+.theme-classic .cook-step{background:#262c36!important}
 </style></head><body>
-<header><div class="brand"><div class="logo">✦</div><div><h1>KITCHEN <span style="color:var(--accent)">ТТК</span></h1><div class="sub">RECIPE WORKSPACE · 3.0</div></div></div></header>
-<div class="hero"><div class="eyebrow">KITCHEN ТТК · ЛИЧНАЯ РЕЦЕПТУРА</div><h2>Готовь красиво.<br>Работай точно.</h2><p>Технологические карты · рецепты · порядок</p></div>
+<header><div class="brand"><div class="logo">✦</div><div><h1>KITCHEN <span style="color:var(--accent)">ТТК</span></h1><div class="sub">RECIPE WORKSPACE · 3.2</div></div></div></header>
+<section class="mascot-hero">
+  <div class="mascot-copy"><div class="eyebrow">KITCHEN ТТК · ТВОЯ КУХНЯ</div>
+  <div class="speech">Ну что, шеф, сегодня готовим что-нибудь вкусное? ♡</div>
+  <p>Технологические карты · рецепты · порядок</p></div>
+  <img class="hero-kuromi" src="icon-512.png" alt="Куроми — шеф-повар">
+</section>
 <input id="search" class="search" type="search" placeholder="⌕  Найти блюдо или ингредиент…" autocomplete="off">
-<div class="actions no-print"><button class="action" id="addDish"><b>＋</b>Новое ТТК</button><button class="action" id="cookBtn"><b>♨</b>Режим повара</button><button class="action" id="backupBtn"><b>⇅</b>База данных</button><button class="action" id="historyBtn"><b>◷</b>История</button><button class="action" id="printBtn"><b>▤</b>Печать</button><button class="action" id="themeBtn"><b>◐</b>Цвет</button></div>
-<nav id="chips" class="chips no-print"></nav><div class="toolbar"><span id="count">Загрузка…</span><div><button class="smallbtn" id="manageCats">Категории</button> <button class="smallbtn" id="favOnly">☆</button></div></div><main id="content"></main><div class="bottom">Демонстрационная ТТК · личные записи хранятся на этом устройстве</div>
+<div class="actions no-print"><button class="action" id="addDish"><b>✚</b><span>Новое ТТК</span></button><button class="action" id="cookBtn"><b>♨</b><span>Режим повара</span></button><button class="action" id="backupBtn"><b>▤</b><span>База данных</span></button><button class="action" id="historyBtn"><b>◷</b><span>История</span></button><button class="action" id="printBtn"><b>▧</b><span>Печать</span></button><button class="action" id="themeBtn"><b>✿</b><span>Цвет и тема</span></button></div>
+<nav id="chips" class="chips no-print"></nav><div class="toolbar"><span id="count">Загрузка…</span><div><button class="smallbtn" id="manageCats">Категории</button> <button class="smallbtn" id="favOnly">☆</button></div></div><main id="content"></main><div class="mascot-footer"><img src="icon-192.png" alt=""><span>Куроми: «ТТК проверена. Можно готовить!»</span><span class="spark">✦ ♡ ✦</span></div>
+<div class="bottom">Демонстрационная ТТК · личные записи хранятся на этом устройстве</div>
 <!-- editor -->
 <div class="overlay" id="editorOverlay"><div class="modal"><div class="modalhead"><h2 id="editorTitle">Новое ТТК</h2><button class="close" data-close="editorOverlay">×</button></div><div class="formrow"><label>Название</label><input class="field" id="dishName" placeholder="Например, Творожная масса"></div><div class="formrow"><label>Категория</label><select id="dishCategory"></select></div><div class="formrow"><label>Тип карты</label><select id="dishType"><option value="dish">Блюдо</option><option value="prep">Заготовка / полуфабрикат</option><option value="sauce">Соус</option><option value="base">База</option></select></div><div class="formrow"><label>Выход по этой ТТК</label><div class="component-form"><div class="formrow"><input class="field" id="yieldQty" type="number" min="0.001" step="any" value="1"></div><div class="formrow"><input class="field" id="yieldUnit" value="порц." placeholder="ед.изм."></div><div class="formrow"><span class="hint">Общий выход</span></div></div></div><div class="formrow"><label>Ингредиенты (каждый с новой строки)</label><textarea id="dishIngredients" placeholder="Творог — 700 г&#10;Яйца — 100 г&#10;Сахар — 150 г"></textarea><div class="hint">Для автоматического пересчёта указывай количество и единицу измерения, например: Мука — 200 г.</div></div><div class="formrow"><label>Добавить связанную заготовку / соус / базу</label><select id="componentTarget"><option value="">Выбрать существующую ТТК…</option></select><div class="component-form"><div class="formrow"><input class="field" id="componentQty" type="number" min="0.001" step="any" placeholder="Количество"></div><div class="formrow"><input class="field" id="componentUnit" placeholder="г / мл / шт."></div><div class="formrow"><button class="btn" id="addComponent">＋ Связать</button></div></div><div id="componentList"></div><div class="hint">Связанные карты открываются нажатием. При пересчёте выхода родительской карты количество заготовки и её ингредиенты пересчитываются по цепочке.</div></div><div class="formrow"><label>Время приготовления</label><input class="field" id="dishTime" placeholder="Например, 8–10 минут"></div><div class="formrow"><label>Приготовление / заметки</label><textarea id="dishNote" placeholder="Порядок приготовления, температура, нюансы…"></textarea></div><div class="formrow"><label>ТТК подачи</label><textarea id="dishPlating" placeholder="Посуда, выкладка, соус, декор…"></textarea></div><div class="formrow"><label>Фото</label><input class="field" id="dishPhoto" type="file" accept="image/*"><img id="photoPreview" class="preview" alt="Фото"><button class="smallbtn" id="removePhoto" style="display:none;margin-top:7px">Убрать фото</button></div><div class="modalactions"><button class="btn primary" id="saveDish">Сохранить ТТК</button><button class="btn danger" id="deleteDish" style="display:none">Удалить</button><button class="btn" data-close="editorOverlay">Отмена</button></div></div></div>
 <!-- categories --> <div class="overlay" id="catsOverlay"><div class="modal"><div class="modalhead"><h2>Категории</h2><button class="close" data-close="catsOverlay">×</button></div><div id="categoryList"></div><div class="formrow"><label>Новая категория</label><input class="field" id="newCategory" placeholder="Название"></div><div class="modalactions"><button class="btn primary" id="addCategory">＋ Добавить</button><button class="btn" data-close="catsOverlay">Готово</button></div></div></div>
 <!-- backup --> <div class="overlay" id="backupOverlay"><div class="modal"><div class="modalhead"><h2>Экспорт и импорт</h2><button class="close" data-close="backupOverlay">×</button></div><p class="hint">Резервная копия включает категории, блюда, связанные ТТК, фотографии, избранное и историю.</p><div class="statgrid"><div class="stat"><strong id="backupDishCount">0</strong><small>ТТК в базе</small></div><div class="stat"><strong id="backupCatCount">0</strong><small>Категорий</small></div></div><div class="modalactions"><button class="btn primary" id="exportBtn">↓ Скачать резервную копию</button><label class="btn" for="importFile">↑ Импортировать копию</label><input id="importFile" type="file" accept=".json,application/json" class="hide"></div><p class="hint">Импорт заменяет текущую базу. Перед этим рекомендуется скачать резервную копию.</p></div></div>
-<div class="hint">Это ручной учёт остатков заготовок на устройстве.</div></div></div>
+<div class="hint"></div></div></div>
 <!-- history --> <div class="overlay" id="historyOverlay"><div class="modal"><div class="modalhead"><h2>История изменений</h2><button class="close" data-close="historyOverlay">×</button></div><div id="historyList"></div></div></div>
 <!-- cook --> <div class="overlay" id="cookOverlay"><div class="modal"><div class="modalhead"><h2>♨ Режим повара</h2><button class="close" data-close="cookOverlay">×</button></div><div class="formrow"><label>Выбери ТТК</label><select id="cookDish"></select></div><div class="formrow"><label>Нужный выход</label><div class="component-form"><input class="field" id="cookQty" type="number" min="0.001" step="any" value="1"><input class="field" id="cookUnit" disabled><button class="btn primary" id="cookCalc">Пересчитать</button></div></div><div id="cookProgress" class="cook-progress"></div><div id="cookResult" class="cookmode"></div><div class="cook-nav"><button class="btn" id="cookPrev">← Назад</button><button class="btn primary" id="cookNext">Далее →</button></div><div class="modalactions"><button class="btn" id="cookPrint">Печать этой ТТК</button></div></div></div>
 <div class="toast" id="toast"></div>
@@ -22,10 +83,22 @@ const initialData=[{"category": "Завтраки", "dishes": [{"id": "demo_syrn
 const STORE='kitchen-ttk-v3-clean',THEME='kitchen-ttk-theme-v3';
 const $=s=>document.querySelector(s);const clone=x=>JSON.parse(JSON.stringify(x));
 let saved=null;try{saved=JSON.parse(localStorage.getItem(STORE)||'null')}catch{}
-let data=saved?.data||clone(initialData),favorites=new Set(saved?.favorites||[]),history=saved?.history||[],theme=localStorage.getItem(THEME)||'lime';
+let data=saved?.data||clone(initialData),favorites=new Set(saved?.favorites||[]),history=saved?.history||[],theme=localStorage.getItem(THEME)||'kuromi';
 let active='Все',favMode=false,expanded='',editingId=null,pendingPhoto=null,removePhoto=false,componentsDraft=[];
 const themes={lime:['#101217','#191e27','#222a36','#303b4a','#f4f6fa','#9ca8b8','#b8f36b'],blue:['#0d1521','#172333','#213247','#34485e','#f2f7ff','#a8b8cc','#83c8ff'],purple:['#17121b','#241b2a','#302437','#49364f','#f7f0fa','#b8a8bf','#d5a6f2'],amber:['#171512','#24201a','#332b20','#514332','#f7f2e9','#b9ad9a','#f2bd68'],light:['#f1f0eb','#fff','#e6e4dc','#d2d0c7','#22231f','#6e7068','#527b35']};
-function applyTheme(id){theme=themes[id]?id:'lime';let t=themes[theme],r=document.documentElement.style;['bg','panel','panel2','line','text','muted','accent'].forEach((k,i)=>r.setProperty('--'+k,t[i]));document.querySelector('meta[name="theme-color"]').content=t[0];localStorage.setItem(THEME,theme)}applyTheme(theme);
+function applyTheme(id){
+ theme=(id==='classic'?'classic':'kuromi');
+ const t=theme==='kuromi'?['#151019','#211827','#2b2033','#594260','#fbf4ff','#bcaac3','#d6a0f2']:['#17191f','#222630','#2c323e','#414958','#f2f4f8','#aab2c0','#9da9bb'];
+ let r=document.documentElement.style;
+ ['bg','panel','panel2','line','text','muted','accent'].forEach((k,i)=>r.setProperty('--'+k,t[i]));
+ document.body.classList.toggle('theme-classic',theme==='classic');
+ document.body.classList.toggle('theme-kuromi',theme==='kuromi');
+ document.querySelector('meta[name="theme-color"]').content=t[0];
+ localStorage.setItem(THEME,theme);
+ const b=document.querySelector('#themeBtn span');
+ if(b)b.textContent=theme==='kuromi'?'Тема: Куроми':'Тема: классика';
+}
+applyTheme(theme);
 function toast(s){let t=$('#toast');t.textContent=s;t.style.display='block';setTimeout(()=>t.style.display='none',2200)}
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function uid(){return 'x'+Date.now().toString(36)+Math.random().toString(36).slice(2,7)}
@@ -61,7 +134,62 @@ function renderCook(){let d=byId($('#cookDish').value)?.d;if(!d)return;let qty=N
 $('#cookDish').onchange=()=>{let d=byId($('#cookDish').value)?.d;$('#cookQty').value=d?.yieldQty||1;$('#cookUnit').value=d?.yieldUnit||'порц.';cookStep=0;renderCook()};$('#cookCalc').onclick=()=>{cookStep=0;renderCook()};$('#cookPrev').onclick=()=>{cookStep=Math.max(0,cookStep-1);renderCook()};$('#cookNext').onclick=()=>{if(cookStep<cookSteps.length-1){cookStep++;renderCook()}else toast('Приятной готовки!')};$('#cookBtn').onclick=()=>{let d=all()[0];if(d)openCook(d.id);else show('cookOverlay')};$('#cookPrint').onclick=()=>window.print();
 function printDish(id){let d=byId(id)?.d;if(!d)return;let html=`<h1>${esc(d.name)}</h1><p>Выход: ${esc(d.yieldQty||1)} ${esc(d.yieldUnit||'порц.')}</p><h3>Ингредиенты</h3>${(d.ingredients||[]).map(x=>`<p>${esc(x)}</p>`).join('')}<h3>Связанные заготовки</h3>${(d.components||[]).map(x=>`<p>${esc(nameOf(x.dishId))} — ${esc(x.qty)} ${esc(x.unit)}</p>`).join('')}<h3>Приготовление</h3><p>${esc(d.note||'')}</p><h3>ТТК подачи</h3><p>${esc(d.plating||'')}</p>`;let w=window.open('','_blank');if(!w)return alert('Разреши открытие всплывающего окна для печати');w.document.write(`<html><head><title>${esc(d.name)}</title><style>body{font:14px Arial;padding:28px;color:#111}h1{font-size:24px}h3{border-bottom:1px solid #aaa;padding-bottom:5px;margin-top:24px}
 :root{--accent:#c99af4}body{background:radial-gradient(ellipse at 85% -10%,#3a2448 0,transparent 42%),var(--bg)}.logo{background:linear-gradient(145deg,#e7c9ff,#a76bd5);color:#24132e;box-shadow:0 7px 22px #b77ce755}.hero{background:linear-gradient(135deg,#30213b,#1c1724 68%,#3c2947);border-color:#60466e}.eyebrow,.section h3,.detailtitle{color:var(--accent)}.chip.active,.btn.primary{background:var(--accent);border-color:var(--accent);color:#21152a}.cook-progress{height:5px;border-radius:10px;background:var(--panel2);overflow:hidden;margin:8px 0 16px}.cook-progress>span{display:block;height:100%;background:var(--accent);border-radius:10px;transition:width .2s}.cook-step{font-size:18px;line-height:1.55;padding:20px 16px;border:1px solid var(--line);border-radius:18px;background:var(--panel2);min-height:150px;display:flex;align-items:center}.cook-nav{display:flex;gap:9px;margin:14px 0}.cook-nav .btn{flex:1}.cook-check{display:flex;gap:10px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}.cook-check input{accent-color:var(--accent);width:18px;height:18px}
-</style></head><body>${html}</body></html>`);w.document.close();w.focus();setTimeout(()=>w.print(),300)}$('#printBtn').onclick=()=>{let id=expanded||all()[0]?.id;if(id)printDish(id);else alert('Сначала добавь ТТК')};$('#themeBtn').onclick=()=>{let ids=Object.keys(themes),i=ids.indexOf(theme);applyTheme(ids[(i+1)%ids.length]);toast('Тема: '+ids[(i+1)%ids.length])};
+
+
+/* KITCHEN TTK 3.2 — Kuromi atelier */
+:root{color-scheme:dark;--bg:#151019;--panel:#211827;--panel2:#2b2033;--line:#594260;--text:#fbf4ff;--muted:#bcaac3;--accent:#d6a0f2;--accent2:#f3b6d4;--shadow:0 15px 38px #08050d88}
+body{background:radial-gradient(ellipse at 88% 0%,#4b2a58 0,transparent 34%),radial-gradient(ellipse at 4% 48%,#2b1b35 0,transparent 30%),var(--bg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+header{background:#151019e8;border-bottom:1px solid #ffffff0b}
+.logo{background:linear-gradient(145deg,#f4d8ff,#b77bd6);color:#2a1633;box-shadow:0 0 24px #c58ce755;border:1px solid #f6ddff}
+.brand h1{font-family:Georgia,serif;letter-spacing:.7px}
+.sub{letter-spacing:2.3px}
+.mascot-hero{position:relative;display:flex;align-items:center;min-height:190px;margin:13px 0 16px;padding:18px 16px;border:1px solid #9c6cb2;border-radius:27px;background:linear-gradient(120deg,#382442 0%,#24182d 57%,#3c2545 100%);box-shadow:inset 0 0 35px #d8a3f21a,0 12px 30px #08050d66;overflow:hidden}
+.mascot-hero:before{content:"✦  ♡  ✦";position:absolute;right:12px;top:10px;color:#d9a9f0;font-size:19px;letter-spacing:8px;opacity:.7}
+.mascot-copy{position:relative;z-index:2;width:65%}
+.mascot-copy .eyebrow{color:#e5b6f7;font-size:10px;letter-spacing:1.6px}
+.speech{margin:12px 0 9px;padding:13px 14px;background:#f0d7f6;color:#392343;border-radius:18px 18px 18px 5px;font-size:17px;font-weight:750;line-height:1.25;box-shadow:0 6px 18px #08050d33}
+.mascot-copy p{font-size:11px;color:#d5c3dd;margin:0;line-height:1.4}
+.hero-kuromi{position:absolute;width:48%;max-width:205px;right:-5px;bottom:-20px;filter:drop-shadow(0 8px 13px #08050d99);border-radius:50%;mix-blend-mode:screen}
+.search{background:#211827;border-color:#694d73;border-radius:18px;box-shadow:inset 0 2px 9px #08050d55;padding:16px}
+.actions{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:14px 0 17px}
+.action{position:relative;min-height:91px;border:1px solid #62486d;border-radius:22px 22px 17px 22px;background:linear-gradient(145deg,#302239,#201725);padding:13px 7px;color:#f9efff;font-size:12px;font-weight:650;box-shadow:inset 0 1px #ffffff12,0 8px 17px #09050e55;transition:transform .18s,border-color .18s}
+.action:before{content:"";position:absolute;inset:5px;border:1px solid #ffffff0b;border-radius:17px;pointer-events:none}
+.action b{font-size:25px;color:#e3b0f7;text-shadow:0 0 13px #d49af477}
+.action:active{transform:translateY(2px) scale(.985)}
+.chip{background:#261b2e;border-color:#63496e;padding:10px 15px}
+.chip.active{background:linear-gradient(135deg,#edc9fa,#c88ee7);border-color:#e7c0fa;color:#291831;box-shadow:0 4px 15px #c78be755}
+.toolbar{font-size:12px}
+.smallbtn{border-radius:14px;background:#2c2034;border-color:#62476d}
+.section h3{color:#e2b1f4;font-size:12px;letter-spacing:2px}
+.dish{background:linear-gradient(145deg,#30223a,#211827);border-color:#674b73;border-radius:22px;box-shadow:0 9px 24px #08050d66}
+.dishhead{padding:16px;min-height:76px}
+.dishname{font-size:16px}
+.star{color:#d8a8ee}
+.detail{border-color:#ffffff14}
+.btn,.smallbtn{border-radius:14px}
+.btn.primary{background:linear-gradient(135deg,#edc8fb,#c88de8);color:#291831;border:0;box-shadow:0 5px 16px #bd80dc44}
+.modal{background:linear-gradient(155deg,#2b2033,#1b1420);border-color:#694e75}
+.field,textarea,select{background:#18121d;border-color:#5b4264}
+.mascot-footer{display:flex;align-items:center;gap:10px;margin:23px 4px 0;padding:11px 13px;border:1px dashed #78588a;border-radius:17px;background:#251a2d;color:#e7c6f5;font-size:11px;font-weight:650}
+.mascot-footer img{width:48px;height:48px;object-fit:cover;border-radius:50%;background:#34223d}
+.mascot-footer .spark{margin-left:auto;color:#e4b3f8;white-space:nowrap}
+.bottom{color:#b49cbd;padding:14px 0 8px}
+@media(min-width:600px){.actions{grid-template-columns:repeat(6,minmax(0,1fr))}.mascot-hero{min-height:220px}.hero-kuromi{width:38%;max-width:230px}}
+
+/* Theme selector: Kuromi is default; Classic keeps the workspace clean */
+.theme-classic .mascot-hero,.theme-classic .mascot-footer{display:none!important}
+.theme-classic .hero-kuromi{display:none!important}
+.theme-classic .hero{display:block!important;background:linear-gradient(135deg,#252a35,#1c2029)!important;border:1px solid #48515f!important;border-radius:18px!important;box-shadow:0 10px 25px #0004!important}
+.theme-classic .hero h2{color:#f2f4f8}
+.theme-classic .eyebrow,.theme-classic .section h3,.theme-classic .detailtitle{color:#b6c0ce!important}
+.theme-classic .logo{background:linear-gradient(145deg,#dfe4ec,#9ba7b8)!important;color:#222833!important;box-shadow:none!important}
+.theme-classic .action{background:linear-gradient(145deg,#292e38,#20242d)!important;border-color:#424a58!important;border-radius:16px!important;box-shadow:0 5px 13px #0003!important}
+.theme-classic .action b{color:#c4ccd8!important;text-shadow:none!important}
+.theme-classic .dish{background:linear-gradient(145deg,#292f3a,#20242d)!important;border-color:#444d5c!important;box-shadow:0 5px 15px #0003!important}
+.theme-classic .chip.active,.theme-classic .btn.primary{background:#aab5c5!important;border-color:#aab5c5!important;color:#1d222b!important;box-shadow:none!important}
+.theme-classic .speech{display:none!important}
+.theme-classic .cook-step{background:#262c36!important}
+</style></head><body>${html}</body></html>`);w.document.close();w.focus();setTimeout(()=>w.print(),300)}$('#printBtn').onclick=()=>{let id=expanded||all()[0]?.id;if(id)printDish(id);else alert('Сначала добавь ТТК')};$('#themeBtn').onclick=()=>{let next=theme==='kuromi'?'classic':'kuromi';applyTheme(next);toast(next==='kuromi'?'Включена тема Куроми 💜':'Включена классическая тема')};
 // migrate old v1 local storage automatically; normalize ids / components
 let legacyFav=[...favorites];let used=new Set();for(let c of data){for(let d of c.dishes){if(!d.id||used.has(d.id))d.id=uid();used.add(d.id);d.components=d.components||[];d.yieldQty=d.yieldQty||1;d.yieldUnit=d.yieldUnit||'порц.';d.type=d.type||'dish'}}favorites=new Set(legacyFav.map(x=>all().find(d=>d.id===x||d.name===x)?.id).filter(Boolean));save();render();if('serviceWorker'in navigator&&location.protocol.startsWith('http'))navigator.serviceWorker.register('./sw.js?v=3').catch(()=>{});
 </script></body></html>
