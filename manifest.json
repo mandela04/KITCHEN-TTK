@@ -1,10 +1,10 @@
 {
-  "name": "KITCHEN ТТК 3.0",
-  "short_name": "KITCHEN ТТК",
+  "name": "KITCHEN ТТК",
+  "short_name": "KITCHEN",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#101217",
-  "theme_color": "#101217",
+  "background_color": "#17121b",
+  "theme_color": "#17121b",
   "icons": [
     {
       "src": "icon-192.png",
